@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点一下下面这两图片，第一个可以来回柔和的渐变切换哦，第二个可以循环的切换3张图片一样那么唯美柔和那么有诱惑的渐变着" />
+
+    <ImageView
+        android:id="@+id/m_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/transition_drawable" />
+
+    <ImageView
+        android:id="@+id/m_image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="InsetDrawable设置一个不填充完整的背景" />
+    <ImageView
+        android:layout_width="100dip"
+        android:layout_height="100dip" 
+        android:background="@drawable/inset_drawable"/>
+
+</LinearLayout>

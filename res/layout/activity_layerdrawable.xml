@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <SeekBar
+        android:id="@+id/m_seekbar"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/layer_drawable" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/layer_drawable2" 
+        android:layout_marginTop="20dip"/>
+    
+    <ImageView
+        android:id="@+id/m_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"/>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <corners
+        android:bottomLeftRadius="30dip"
+        android:bottomRightRadius="0dip"
+        android:topLeftRadius="0dip"
+        android:topRightRadius="30dip" />
+    <!-- corners设置之后运行出来才看到效果，别看这预览在那里纠结了... -->
+
+    <solid android:color="#ffff0000" />
+
+    <stroke
+        android:dashGap="3dip"
+        android:dashWidth="15dip"
+        android:width="2dip"
+        android:color="#ff0000ff" />
+    <!-- stroke画边框， android:dashWidth虚线边框的时候每个短线的长度，android:dashGap短线之间的间隔，这两个一起加进来才有虚线否则是实线的 -->
+
+</shape>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <bitmap android:gravity="left|top" android:src="@drawable/pic1" />
+    </item>
+    <item android:left="30dip" android:top="30dip">
+        <bitmap android:gravity="left|top" android:src="@drawable/pic3" />
+    </item>
+    <item android:left="60dip" android:top="60dip">
+        <bitmap android:gravity="left|top" android:src="@drawable/pic4" />
+    </item>
+
+</layer-list>
